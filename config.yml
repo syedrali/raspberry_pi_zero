@@ -1,0 +1,24 @@
+main:
+    name: ''
+    plugins:
+        grid:
+            enabled: true
+            report: true
+            exclude: 
+                - 
+        onlinehashcrack:
+            enabled: true
+            email: 
+        wpa-sec:
+            enabled: true
+            api_key: 
+            api_url: "https://wpa-sec.stanev.org"
+            download_results: true
+    whitelist:
+        - 
+
+# ui configuration
+ui:
+    display:
+        type: 'inky'
+        color: 'red'
